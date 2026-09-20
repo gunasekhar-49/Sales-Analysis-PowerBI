@@ -9,10 +9,10 @@ Built with **Power BI Desktop, DAX and Power Query**.
 ## Dashboard preview
 
 ### Overall view - sales people
-![Sales person view](screenshots/SalesDetails.png)
+
 
 ### Country filter (Australia) - product view
-![Product view for Australia](screenshots/ProductDetails1.png)
+
 
 Clicking a country button on the left filters every visual on the page. Here is how the KPIs change between all countries and Australia:
 
@@ -95,7 +95,6 @@ IF(_chg >= 0, "Up by ", "Down by ") & FORMAT(ABS(_chg), "0.0%") & " vs average"
 | [ac-sample-data.xlsx](ac-sample-data.xlsx) | Source dataset |
 | [measures.md](measures.md) | All DAX measures with explanations |
 | [sales_analysis_report.pdf](sales_analysis_report.pdf) | Full project report |
-| `screenshots/` | Dashboard images used in this README |
 
 ---
 
